@@ -7,7 +7,55 @@
     <title>Acme App</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <!-- Start Coding Here -->
+  <body class="bg-[#F6F6FB]">
+    <header
+      class="bg-white rounded-full flex justify-between items-center py-3 mt-5 mx-5 shadow-md"
+    >
+      <a href="#"><img src="./assets/logo.png" alt="logo" class="pl-24" /></a>
+      <nav>
+        <ul class="flex gap-10 pr-24">
+          <li>
+            <a
+              href="#"
+              class="hover:underline underline-offset-2 hover:text-[#9747FF] transition"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="hover:underline underline-offset-2 hover:text-[#9747FF] transition"
+              >Features</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="hover:underline underline-offset-2 hover:text-[#9747FF] transition"
+              >Pricing</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="hover:underline underline-offset-2 hover:text-[#9747FF] transition"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div class="flex flex-col justify-center items-center mt-32">
+        <div
+          class="w-[236px] h-[40px] bg-[rgba(86,58,255,0.1)] rounded-full flex justify-center items-center"
+        >
+          <p class="text-[rgba(94,68,255,1)]">🌈Acme Productivity App</p>
+        </div>
+        <h1 class="text-7xl font-bold mt-10">Boost Your <span class="text-[rgba(94,68,255,1)]">Product</span>ivity</h1>
+        <h3 class="text-lg font-bold mt-8">Streamline your workflow with our all-in-one productivity app.</h3>
+        <button type="button" class="bg-[rgba(26,26,44,1)] text-white px-[36px] py-[16px] rounded-[16px] mt-8 hover:bg-[rgba(95,95,118,1)] transition">Start Free Trial</button>
+      </div>
+    </section>
   </body>
 </html>
