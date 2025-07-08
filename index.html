@@ -52,13 +52,22 @@
         >
           <p class="text-[rgba(94,68,255,1)]">🌈Acme Productivity App</p>
         </div>
-        <h1 class="text-7xl font-bold mt-10">Boost Your <span class="text-[rgba(94,68,255,1)]">Product</span>ivity</h1>
-        <h3 class="text-lg font-bold mt-8">Streamline your workflow with our all-in-one productivity app.</h3>
-        <button type="button" class="bg-[rgba(26,26,44,1)] text-white px-[36px] py-[16px] rounded-[16px] mt-8 hover:bg-[rgba(95,95,118,1)] transition">Start Free Trial</button>
+        <h1 class="text-7xl font-bold mt-10">
+          Boost Your <span class="text-[rgba(94,68,255,1)]">Product</span>ivity
+        </h1>
+        <h3 class="text-lg font-bold mt-8">
+          Streamline your workflow with our all-in-one productivity app.
+        </h3>
+        <button
+          type="button"
+          class="bg-[rgba(26,26,44,1)] text-white px-[36px] py-[16px] rounded-[16px] mt-8 hover:bg-[rgba(95,95,118,1)] transition"
+        >
+          Start Free Trial
+        </button>
       </div>
     </section>
   <body>
-    <section class="max-w-6xl mx-auto px-4">
+    <section class="max-w-6xl mx-auto px-4 my-40">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         
         
@@ -97,6 +106,52 @@
       </div>
     </section>
     
-    
+    <section>
+      <div class="max-w-4xl mx-auto bg-white p-20 rounded-3xl shadow-md">
+        <h1 class="text-5xl font-bold text-center">Get in Touch</h1>
+        <form class="flex flex-col mt-12">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            placeholder="John Doe"
+            class="border border-1 rounded-xl pl-4 py-2 mt-1 hover:border-[rgba(181,169,255,1)] focus:outline-none focus:ring-1 focus:ring-[rgba(94,68,255,1)]"
+          />
+          <label for="email" class="mt-4">Email</label>
+          <input
+            type="email"
+            placeholder="john@example.com"
+            class="border border-1 rounded-xl pl-4 py-2 mt-1 hover:border-[rgba(181,169,255,1)] focus:outline-none focus:ring-1 focus:ring-[rgba(94,68,255,1)]"
+          />
+          <label for="message" class="mt-4">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            cols="50"
+            placeholder="Your message..."
+            class="border border-1 rounded-xl pl-4 py-2 mt-1 hover:border-[rgba(181,169,255,1)] focus:outline-none focus:ring-1 focus:ring-[rgba(94,68,255,1)]"
+          ></textarea>
+          <button
+            type="submit"
+            class="bg-[rgba(26,26,44,1)] text-white py-4 rounded-lg hover:bg-[rgba(95,95,118,1)] transition mt-12"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+      <footer>
+        <div class="flex justify-between p-24 mx-40">
+          <p class="text-gray-500">Acme produvtivity app &copy;2024</p>
+          <div>
+            <ul class="flex gap-10">
+              <li><a href="#" class="font-bold">FAQ</a></li>
+              <li><a href="#" class="font-bold">Terms</a></li>
+              <li><a href="#" class="font-bold">AI Policy</a></li>
+              <li><a href="#" class="font-bold">Pricing</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </section>
   </body>
 </html>
