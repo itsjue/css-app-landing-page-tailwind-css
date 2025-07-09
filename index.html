@@ -113,78 +113,33 @@
   
       </div>
     </section>
-    <section>
-      <div class="max-w-4xl mx-auto bg-white p-20 rounded-3xl shadow-md">
-        <h1 class="text-5xl font-bold text-center text-[#1A1A2C]">
-          Get in Touch
-        </h1>
-        <form class="flex flex-col mt-12">
-          <label for="name">Name</label>
-          <input
-            type="text"
-            placeholder="John Doe"
-            class="border border-[#E0E0ED] rounded-xl pl-4 py-2 mt-1 hover:border-[#B5A9FF] focus:outline-none focus:ring-1 focus:ring-[rgba(94,68,255,1)]"
-          />
-          <label for="email" class="mt-4">Email</label>
-          <input
-            type="email"
-            placeholder="john@example.com"
-            class="border border-[#E0E0ED] rounded-xl pl-4 py-2 mt-1 hover:border-[#B5A9FF] focus:outline-none focus:ring-1 focus:ring-[rgba(94,68,255,1)]"
-          />
-          <label for="message" class="mt-4">Message</label>
-          <textarea
-            id="message"
-            name="message"
-            rows="4"
-            cols="50"
-            placeholder="Your message..."
-            class="border border-[#E0E0ED] rounded-xl pl-4 py-2 mt-1 hover:border-[#B5A9FF] focus:outline-none focus:ring-1 focus:ring-[rgba(94,68,255,1)]"
-          ></textarea>
-          <button
-            type="submit"
-            class="self-center w-[589px] px-9 py-4 rounded-2xl bg-[#1A1A2C] text-white mt-12 hover:bg-[#5F5F76] focus:bg-[#35354D] focus:ring focus:ring-[#5F5F76] transition"
-          >
-            Submit
-          </button>
-        </form>
-      </div>
-      <footer>
-        <div class="flex justify-between p-24 mx-40">
-          <p class="text-gray-500">Acme produvtivity app &copy;2024</p>
-          <div>
-            <ul class="flex gap-10">
-              <li>
-                <a
-                  href="#"
-                  class="font-bold hover:underline hover:text-[#5E44FF]"
-                  >FAQ</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="font-bold hover:underline hover:text-[#5E44FF]"
-                  >Terms</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="font-bold hover:underline hover:text-[#5E44FF]"
-                  >AI Policy</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="font-bold hover:underline hover:text-[#5E44FF]"
-                  >Pricing</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </footer>
-    </section>
+    <section class="flex flex-col items-center justify-center mt-16 mb-10 px-2 md:px-0">  
+      <div class="bg-white rounded-2xl md:rounded-3xl shadow p-4 md:p-12 w-full max-w-full md:w-[1200px] flex flex-col items-center">   
+         <h2 class="text-3xl md:text-5xl font-extrabold text-[#1a1a2c] mb-8 text-center">Get in Touch</h2>    
+         <form class="w-full max-w-full md:max-w-xl flex flex-col gap-5">      
+          <div>        
+            <label class="block text-base font-medium text-[#1a1a2c] mb-1">Name</label>        
+            <input type="text" placeholder="John Doe" class="w-full px-4 py-3 rounded-lg border border-[#e0e0ed] bg-[#f6f6fb] text-[#1a1a2c] focus:outline-none focus:border-[#5e44ff] hover:border-[#b5a9ff] transition" />     
+          </div>      
+          <div>        
+            <label class="block text-base font-medium text-[#1a1a2c] mb-1">Email</label>       
+            <input type="email" placeholder="john@example.com" class="w-full px-4 py-3 rounded-lg border border-[#e0e0ed] bg-[#f6f6fb] text-[#1a1a2c] focus:outline-none focus:border-[#5e44ff] hover:border-[#b5a9ff] transition" />      
+            </div>      
+            <div>        
+            <label class="block text-base font-medium text-[#1a1a2c] mb-1">Message</label>        
+            <textarea rows="4" placeholder="Your message..." class="w-full px-4 py-3 rounded-lg border border-[#e0e0ed] bg-[#f6f6fb] text-[#1a1a2c] focus:outline-none focus:border-[#5e44ff] hover:border-[#b5a9ff] transition"></textarea>      
+          </div>      
+           <button type="submit" class="w-full md:w-[589px] bg-[#1a1a2c] text-white px-9 py-4 rounded-2xl shadow hover:bg-[#5f5f76] focus:bg-[#35354d] focus:ring focus:ring-[#5f5f76] transition mx-auto">Submit</button>    
+          </form>  
+        </div></section>
+        <!-- Footer -->
+         <footer class="w-full flex justify-center bg-transparent mt-8">  
+          <div class="flex flex-col md:flex-row justify-between items-center w-full md:w-[1200px] max-w-full md:max-w-[96vw] px-2 py-8 gap-4">    <span class="text-[#1a1a2c] text-sm">Acme productivity app ©2024</span>    
+            <ul class="flex space-x-8 text-[#1a1a2c] text-sm font-medium">      
+              <li><a href="#" class="hover:underline">FAQ</a></li>      
+              <li><a href="#" class="hover:underline">Terms</a></li>      
+              <li><a href="#" class="hover:underline">AI Policy</a></li>      
+              <li><a href="#" class="hover:underline">Pricing</a></li>    
+            </ul>  </div></footer>
   </body>
 </html>
